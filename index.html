@@ -80,7 +80,7 @@
         </div>
     </nav>
     <!--slider-part-->
-    <header>
+    <header class="sm:p-2 lg:p-16">
         <!--slider-1-->
         <div class="carousel w-full">
             <div id="slide1" class="carousel-item relative w-full">
@@ -275,12 +275,25 @@
             </div>
         </div>
     </section>
-    <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
-        <div class="grid grid-flow-col gap-4">
-            <a class="link link-hover">About us</a>
-            <a class="link link-hover">Contact</a>
-            <a class="link link-hover">Jobs</a>
-            <a class="link link-hover">Press kit</a>
+    <footer class="footer footer-center p-10 bg-black text-base-content rounded">
+        <div class="flex ">
+            <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+                    <div class="w-10 rounded-full">
+                        <img src="/images/logo.png" />
+                    </div>
+                </label>
+            </div>
+            <div>
+                <a class="btn btn-ghost normal-case text-xl text-white">Fruit Burst</a>
+            </div>
+        </div>
+        <div class="grid lg:grid-flow-col lg:gap-6">
+            <a class="link link-hover text-white">Home</a>
+            <a class="link link-hover text-white">About us</a>
+            <a class="link link-hover text-white">Shop</a>
+            <a class="link link-hover text-white">All Fruits</a>
+            <a class="link link-hover text-white">My Account</a>
         </div>
         <div>
             <div class="grid grid-flow-col gap-4">
